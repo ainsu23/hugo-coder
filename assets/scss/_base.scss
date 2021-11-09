@@ -12,7 +12,7 @@ html {
 body {
   color: $fg-color;
   background-color: $bg-color;
-  font-family: $font-family;
+  font-family: $bad-font;
   font-size: 1.8em;
   font-weight: 400;
   line-height: 1.8em;
@@ -45,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-family;
+  font-family: $bad-font;
   font-weight: 600;
   color: $alt-fg-color;
   margin: 4rem 0 2.5rem 0;
