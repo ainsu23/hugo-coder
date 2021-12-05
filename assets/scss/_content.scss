@@ -101,13 +101,16 @@
 .avatar img {
   width: 20rem;
   height: auto;
-  border-radius: 50%;
-  animation-name: movimiento;
-  animation-duration: 5s;
-
+  
   @media only screen and (max-width: 768px) {
     width: 10rem;
   }
+}
+
+.avatar:hover {
+        border-radius: 100%;
+        animation-duration: 5s;
+
 }
 
 @keyframes movimiento {
